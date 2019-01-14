@@ -1,4 +1,4 @@
-#Whiteboard Problems
+# Whiteboard Problems
 
 Here are answers to common white board coding problems.  I've done these problems in Javascript and ran them through Node. To test the solutions, run the file with Node and supply pass a test string as a command line argument.
 
@@ -14,7 +14,7 @@ Example:
     Output: false
 ```
 
-##Problems
+## Problems
 
 1. String Reversal
     * Problem: Given a string of characters as input, write a function that returns it with the characters reversed.
