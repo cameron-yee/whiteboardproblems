@@ -25,3 +25,8 @@ Example:
     * Problem: A palindrome is a word or phrase that reads the same backward as forward. Write a function that checks for this.
 
     * Solution File: palindrome.js
+
+3. Int Reverse
+    * Problem: Given an integer, reverse the order of the digits.
+
+    * Solution File: intreverse.js
