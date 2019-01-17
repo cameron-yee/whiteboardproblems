@@ -35,3 +35,58 @@ Example:
     * Problem: Given a number as an input, print out every integer from 1 to that number. However, when the integer is divisible by 2, print out “Fizz”; when it’s divisible by 3, print out “Buzz”; when it’s divisible by both 2 and 3, print out “Fizz Buzz”.
 
     * Solution File: fizzbuzz.js
+
+5. Max Character
+    * Problem: Given a string of characters, return the character that appears the most often.
+
+    * Solution File: maxcharacter.js
+
+6. Anagrams
+    * Problem: Anagrams are words or phrases that contain the same number of characters. Create a function that checks for this.
+
+    * Solution File: NOT CREATED YET
+
+7. Vowels
+    * Problem: Given a string of words or phrases, count the number of vowels.
+
+    * Solution File: NOT CREATED YET
+
+8. Array Chunking
+    * Problem: Given an array and a size, split the array items into a list of arrays of the given size.
+
+    * Solution File: NOT CREATED YET
+
+9. Reverse Array
+    * Problem: Given an array of items, reverse the order.
+
+    * Solution File: NOT CREATED YET
+
+10. Reverse Words
+    * Problem: Given a phrase, reverse the order of the characters of each word.
+
+    * Solution File: NOT CREATED YET
+
+11. Capitalization
+    * Problem: Given a phrase, capitalize every word.
+
+    * Solution File: NOT CREATED YET
+
+12. Caesar Cipher
+    * Problem: Given a phrase, substitute each character by shifting it up or down the alphabet by a given integer. If necessary, the shifting should wrap around back to the beginning or end of the alphabet.
+
+    * Solution File: NOT CREATED YET
+
+13. Ransom Note
+    * Problem: Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words.
+
+    * Solution File: NOT CREATED YET
+    
+14. Mean, Median, and Mode
+    * Problem: Given an array of numbers, calculate the mean, median, and mode.
+
+    * Solution File: NOT CREATED YET
+
+15. Two Sum
+    * Problem: Given an array of numbers, return all pairs that add up to a given sum. The numbers can be used more than once.
+
+    * Solution File: NOT CREATED YET
