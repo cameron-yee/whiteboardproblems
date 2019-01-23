@@ -44,12 +44,12 @@ Example:
 6. Anagrams
     * Problem: Anagrams are words or phrases that contain the same number of characters. Create a function that checks for this.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: anagrams.js
 
 7. Vowels
     * Problem: Given a string of words or phrases, count the number of vowels.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: vowels.js
 
 8. Array Chunking
     * Problem: Given an array and a size, split the array items into a list of arrays of the given size.

@@ -1,4 +1,4 @@
-const reverseInt = (integer) => {
+exports.reverseInt = (integer) => {
     const isNegative = integer < 0
     let  storage = ''
     let  integer_as_string = integer.toString()
@@ -17,6 +17,6 @@ const reverseInt = (integer) => {
     return new_integer
 }
 
-let solution = reverseInt(process.argv[2])
-console.log(solution)
+//let solution = reverseInt(process.argv[2])
+//console.log(solution)
 

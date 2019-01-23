@@ -1,4 +1,4 @@
-const isAnagram = (input_one, input_two) => {
+exports.isAnagram = (input_one, input_two) => {
     input_one_characters = input_one.split('').sort()
     input_two_characters = input_two.split('').sort()
 
@@ -14,5 +14,5 @@ const isAnagram = (input_one, input_two) => {
     }
 }
 
-const solution = isAnagram(process.argv[2], process.argv[3])
-console.log(solution)
+//const solution = isAnagram(process.argv[2], process.argv[3])
+//console.log(solution)
