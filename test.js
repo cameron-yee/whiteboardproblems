@@ -6,6 +6,7 @@ var intreverse = require('./problems/intreverse')
 var palindrome = require('./problems/palindrome')
 var stringreverse = require('./problems/stringreverse')
 var maxcharacter = require('./problems/maxcharacter')
+var arraychunking = require('./problems/arraychunking')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -43,3 +44,11 @@ test('maxcharacter', t => {
     let char_json = maxcharacter.countChars('aaaacccsstte')    
     t.deepEqual(maxcharacter.getMax(char_json), ['a', 4])
 })
+
+test('arraychunking', t => {
+    t.plan(3)
+    t.deepEqual(arraychunking.chunk([1,2,3,4,5,6,7,8,9,10,11,12,13], 3), [[1,2,3],[4,5,6],[7,8,9],[10,11,12],[13]])
+    t.deepEqual(arraychunking.chunk([1,2,3,4,5,6,7,8,9,10,11,12,13], 1), [[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13]])
+    t.deepEqual(arraychunking.chunk(['Tim'], 5), ['Tim'])
+})
+
