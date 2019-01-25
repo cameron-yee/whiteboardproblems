@@ -7,6 +7,7 @@ var palindrome = require('./problems/palindrome')
 var stringreverse = require('./problems/stringreverse')
 var maxcharacter = require('./problems/maxcharacter')
 var arraychunking = require('./problems/arraychunking')
+var reversearray = require('./problems/reversearray')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -52,3 +53,6 @@ test('arraychunking', t => {
     t.deepEqual(arraychunking.chunk(['Tim'], 5), ['Tim'])
 })
 
+test('reversearray', t => {
+    t.deepEqual(reversearray.reversearray([1,2,3,4,5,6,7,8,9,10,11,12,13]), [13,12,11,10,9,8,7,6,5,4,3,2,1])
+})
