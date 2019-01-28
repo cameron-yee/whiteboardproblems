@@ -8,6 +8,7 @@ var stringreverse = require('./problems/stringreverse')
 var maxcharacter = require('./problems/maxcharacter')
 var arraychunking = require('./problems/arraychunking')
 var reversearray = require('./problems/reversearray')
+var reversewords = require('./problems/reversewords')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -55,4 +56,8 @@ test('arraychunking', t => {
 
 test('reversearray', t => {
     t.deepEqual(reversearray.reversearray([1,2,3,4,5,6,7,8,9,10,11,12,13]), [13,12,11,10,9,8,7,6,5,4,3,2,1])
+})
+
+test('reversewords', t => {
+    t.deepEqual(reversewords.reversewords('The Rain in Spain'), 'ehT niaR ni niapS')
 })

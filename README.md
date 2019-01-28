@@ -54,17 +54,17 @@ Example:
 8. Array Chunking
     * Problem: Given an array and a size, split the array items into a list of arrays of the given size.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: arraychunking.js
 
 9. Reverse Array
     * Problem: Given an array of items, reverse the order.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: reversearray.js
 
 10. Reverse Words
     * Problem: Given a phrase, reverse the order of the characters of each word.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: reversewords.js
 
 11. Capitalization
     * Problem: Given a phrase, capitalize every word.
