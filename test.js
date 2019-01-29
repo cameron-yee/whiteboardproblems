@@ -9,6 +9,7 @@ var maxcharacter = require('./problems/maxcharacter')
 var arraychunking = require('./problems/arraychunking')
 var reversearray = require('./problems/reversearray')
 var reversewords = require('./problems/reversewords')
+var capitalize = require('./problems/capitalization')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -60,4 +61,9 @@ test('reversearray', t => {
 
 test('reversewords', t => {
     t.deepEqual(reversewords.reversewords('The Rain in Spain'), 'ehT niaR ni niapS')
+})
+
+test('capitalize', t => {
+    t.deepEqual(capitalize.capitalize('the Rain in spaIn'), 'The Rain In SpaIn')
+    t.deepEqual(capitalize.capitalize('   the   Rain in a   spaIn'), '   The   Rain In A   SpaIn')
 })
