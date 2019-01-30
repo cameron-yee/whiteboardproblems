@@ -69,12 +69,12 @@ Example:
 11. Capitalization
     * Problem: Given a phrase, capitalize every word.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: capitalization.js
 
 12. Caesar Cipher
     * Problem: Given a phrase, substitute each character by shifting it up or down the alphabet by a given integer. If necessary, the shifting should wrap around back to the beginning or end of the alphabet.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: caesarcipher.js
 
 13. Ransom Note
     * Problem: Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words.

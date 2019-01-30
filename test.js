@@ -10,6 +10,7 @@ var arraychunking = require('./problems/arraychunking')
 var reversearray = require('./problems/reversearray')
 var reversewords = require('./problems/reversewords')
 var capitalize = require('./problems/capitalization')
+var caesarcipher = require('./problems/caesarcipher')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -44,7 +45,7 @@ test('stringreverse', t => {
 })
 
 test('maxcharacter', t => {
-    let char_json = maxcharacter.countChars('aaaacccsstte')    
+    let char_json = maxcharacter.countChars('aaaacccsstte')
     t.deepEqual(maxcharacter.getMax(char_json), ['a', 4])
 })
 
@@ -66,4 +67,13 @@ test('reversewords', t => {
 test('capitalize', t => {
     t.deepEqual(capitalize.capitalize('the Rain in spaIn'), 'The Rain In SpaIn')
     t.deepEqual(capitalize.capitalize('   the   Rain in a   spaIn'), '   The   Rain In A   SpaIn')
+})
+
+test('caesarcipher', t => {
+    t.plan(2)
+    let phrase = 'The Rain in Spain'
+    let coded = caesarcipher.cipher(3, phrase)
+    t.deepEqual(coded, 'Wkh Udlq lq Vsdlq')
+    let deciphered = caesarcipher.decipher(3, coded)
+    t.deepEqual(deciphered, phrase)
 })
