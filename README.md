@@ -1,5 +1,4 @@
-# Whiteboard Problems
-
+# Whiteboard Problems 
 Here are answers to common white board coding problems.  I've done these problems in Javascript and ran them through Node. To test the solutions, run the file with Node and supply pass a test string as a command line argument.
 
 Example:
@@ -77,9 +76,9 @@ Example:
     * Solution File: caesarcipher.js
 
 13. Ransom Note
-    * Problem: Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words.
+    * Problem: Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words. In other words, see if all the words in the ransom note are in a giant string of words.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: ransomnote.js
     
 14. Mean, Median, and Mode
     * Problem: Given an array of numbers, calculate the mean, median, and mode.

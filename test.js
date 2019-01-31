@@ -11,6 +11,7 @@ var reversearray = require('./problems/reversearray')
 var reversewords = require('./problems/reversewords')
 var capitalize = require('./problems/capitalization')
 var caesarcipher = require('./problems/caesarcipher')
+var ransomnote = require('./problems/ransomnote')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -76,4 +77,13 @@ test('caesarcipher', t => {
     t.deepEqual(coded, 'Wkh Udlq lq Vsdlq')
     let deciphered = caesarcipher.decipher(3, coded)
     t.deepEqual(deciphered, phrase)
+})
+
+test('ransomnote', t => {
+    t.plan(2)
+
+    const magazine = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+
+    t.truthy(ransomnote.ransomnote('sit ad est sint', magazine))
+    t.falsy(ransomnote.ransomnote('sit ad est sint in in in in', magazine))
 })
