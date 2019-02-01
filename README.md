@@ -83,7 +83,7 @@ Example:
 14. Mean, Median, and Mode
     * Problem: Given an array of numbers, calculate the mean, median, and mode.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: mmm.js
 
 15. Two Sum
     * Problem: Given an array of numbers, return all pairs that add up to a given sum. The numbers can be used more than once.

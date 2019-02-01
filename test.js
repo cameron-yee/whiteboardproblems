@@ -12,6 +12,7 @@ var reversewords = require('./problems/reversewords')
 var capitalize = require('./problems/capitalization')
 var caesarcipher = require('./problems/caesarcipher')
 var ransomnote = require('./problems/ransomnote')
+var mmm = require('./problems/mmm')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -86,4 +87,12 @@ test('ransomnote', t => {
 
     t.truthy(ransomnote.ransomnote('sit ad est sint', magazine))
     t.falsy(ransomnote.ransomnote('sit ad est sint in in in in', magazine))
+})
+
+test('mmm', t => {
+    t.plan(2)
+    const numbers = [1,1,3,4,5,6,7,8,9,10]
+    t.deepEqual(mmm.calcMMM(numbers), {"median": 5.5, "mean": 5.4, "mode": [1]})
+    const numbers_2 = [1,1,3,3,5,6,7,8,9,10]
+    t.deepEqual(mmm.calcMMM(numbers_2), {"median": 5.5, "mean": 5.3, "mode": [1, 3,],})
 })
