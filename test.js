@@ -13,6 +13,7 @@ var capitalize = require('./problems/capitalization')
 var caesarcipher = require('./problems/caesarcipher')
 var ransomnote = require('./problems/ransomnote')
 var mmm = require('./problems/mmm')
+var twosum = require('./problems/twosum')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -95,4 +96,12 @@ test('mmm', t => {
     t.deepEqual(mmm.calcMMM(numbers), {"median": 5.5, "mean": 5.4, "mode": [1]})
     const numbers_2 = [1,1,3,3,5,6,7,8,9,10]
     t.deepEqual(mmm.calcMMM(numbers_2), {"median": 5.5, "mean": 5.3, "mode": [1, 3,],})
+})
+
+test('twosum', t => {
+    t.plan(2)
+    const numbers = [1,1,3,4,5,6,7,8,9,10]
+    t.deepEqual(twosum.twonumbersumfinder(numbers, 8), [[1,7],[1,7],[3,5]])
+    const numbers_2 = [1.1,0.2,0,1.3]
+    t.deepEqual(twosum.twonumbersumfinder(numbers_2, 1.3), [[1.1,0.2],[0, 1.3]])
 })

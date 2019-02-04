@@ -79,7 +79,7 @@ Example:
     * Problem: Given a magazine of words and a ransom note, determine if it’s possible to “cut out” and create the ransom note from the magazine words. In other words, see if all the words in the ransom note are in a giant string of words.
 
     * Solution File: ransomnote.js
-    
+
 14. Mean, Median, and Mode
     * Problem: Given an array of numbers, calculate the mean, median, and mode.
 
@@ -87,5 +87,46 @@ Example:
 
 15. Two Sum
     * Problem: Given an array of numbers, return all pairs that add up to a given sum. The numbers can be used more than once.
+
+    * Solution File: twosum.js
+
+16. Max Profit
+    * Problem: Given a list of numbers, find the two numbers that have the greatest difference (sell price - buy price = profit per unit)
+
+    * Solution File: NOT CREATED YET
+
+17. Sieve of Eratosthenes
+    * Problem: For a given number, find all the prime numbers from zero to that number.
+
+    * Solution File: NOT CREATED YET
+
+18. Fibonacci
+    * Problem: Implement a function that returns the fibonacci number (sum of the previous 2) at a given index.
+
+    * Solution File: NOT CREATED YET
+
+19. Memoized Fibonacci
+    * Problem: Implement a performant recursive function for the fibonacci series.
+
+    * Solution File: NOT CREATED YET
+
+20. Staircase
+    * Problem: For a given number of steps, print out a “staircase” using hashes and spaces.
+
+    * Example: steps(3), "#  \n## \n###\n"
+
+    * Solution File: NOT CREATED YET
+
+21. Pyramid
+    * Problem: For a given number of levels, print out a “pyramid” using hashes and spaces. 
+
+    * Example:   #  \n ### \n#####\n"
+
+    * Solution File: NOT CREATED YET
+
+22. Matrix Spiral
+    * Problem: Create a square matrix of a given size in which elements are in spiral order.
+
+    * Example: spiral(3), [[1, 2, 3], [8, 9, 4], [7, 6, 5]]
 
     * Solution File: NOT CREATED YET
