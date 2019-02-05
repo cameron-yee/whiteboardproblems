@@ -90,10 +90,10 @@ Example:
 
     * Solution File: twosum.js
 
-16. Max Profit
-    * Problem: Given a list of numbers, find the two numbers that have the greatest difference (sell price - buy price = profit per unit)
+16. Max Difference
+    * Problem: Given a list of numbers, find the two numbers that have the greatest difference.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: maxdifference.js
 
 17. Sieve of Eratosthenes
     * Problem: For a given number, find all the prime numbers from zero to that number.
