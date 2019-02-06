@@ -98,7 +98,7 @@ Example:
 17. Sieve of Eratosthenes
     * Problem: For a given number, find all the prime numbers from zero to that number.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: prime.js
 
 18. Fibonacci
     * Problem: Implement a function that returns the fibonacci number (sum of the previous 2) at a given index.
