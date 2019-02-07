@@ -103,7 +103,7 @@ Example:
 18. Fibonacci
     * Problem: Implement a function that returns the fibonacci number (sum of the previous 2) at a given index.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: fibonacci.js
 
 19. Memoized Fibonacci
     * Problem: Implement a performant recursive function for the fibonacci series.
