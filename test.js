@@ -17,6 +17,7 @@ const twosum = require('./problems/twosum')
 const maxdifference = require('./problems/maxdifference')
 const prime = require('./problems/prime')
 const fibonacci = require('./problems/fibonacci')
+const memoizedfibonacci = require('./problems/memoizedfibonacci')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -127,4 +128,18 @@ test('fibonacci', t => {
     t.plan(2)
     t.is(fibonacci.fibonacci(5), 5)
     t.is(fibonacci.fibonacci(28), 317811) 
+})
+
+test('memoizedfibonacci', t => {
+    t.plan(5)
+    let one = memoizedfibonacci.memoized(5)
+    let two = memoizedfibonacci.memoized(10, [0,1,1,2,3,5])
+    let three = memoizedfibonacci.memoized(5, [0,1,1,2,3,5])
+    let four = memoizedfibonacci.memoized(4, [0,1,1,2,3,5])
+    let five = memoizedfibonacci.memoized(3, [0,1,1,2,3,5])
+    t.is(one, 5)
+    t.is(two, 55)
+    t.is(three, 5)
+    t.is(four, 3)
+    t.is(five, 2)
 })
