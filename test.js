@@ -18,6 +18,7 @@ const maxdifference = require('./problems/maxdifference')
 const prime = require('./problems/prime')
 const fibonacci = require('./problems/fibonacci')
 const memoizedfibonacci = require('./problems/memoizedfibonacci')
+const staircase = require('./problems/staircase')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -142,4 +143,10 @@ test('memoizedfibonacci', t => {
     t.is(three, 5)
     t.is(four, 3)
     t.is(five, 2)
+})
+
+test('stairs', t => {
+    t.plan(2)
+    t.deepEqual(staircase.staircase(3), [`#\n` , `##\n`, `###\n`])
+    t.deepEqual(staircase.staircase(5), [`#\n` , `##\n`, `###\n`, `####\n`, `#####\n`])
 })

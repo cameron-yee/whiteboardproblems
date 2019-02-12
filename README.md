@@ -108,14 +108,14 @@ Example:
 19. Memoized Fibonacci
     * Problem: Implement a performant recursive function for the fibonacci series.
 
-    * Solution File: NOT CREATED YET
+    * Solution File: memoizedfibonacci.js
 
 20. Staircase
     * Problem: For a given number of steps, print out a “staircase” using hashes and spaces.
 
     * Example: steps(3), "#  \n## \n###\n"
 
-    * Solution File: NOT CREATED YET
+    * Solution File: staircase.js 
 
 21. Pyramid
     * Problem: For a given number of levels, print out a “pyramid” using hashes and spaces. 
