@@ -19,6 +19,7 @@ const prime = require('./problems/prime')
 const fibonacci = require('./problems/fibonacci')
 const memoizedfibonacci = require('./problems/memoizedfibonacci')
 const staircase = require('./problems/staircase')
+const pyramid = require('./problems/pyramid')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -149,4 +150,10 @@ test('stairs', t => {
     t.plan(2)
     t.deepEqual(staircase.staircase(3), [`#\n` , `##\n`, `###\n`])
     t.deepEqual(staircase.staircase(5), [`#\n` , `##\n`, `###\n`, `####\n`, `#####\n`])
+})
+
+test('pyramid', t => {
+    t.plan(2)
+    t.deepEqual(pyramid.pyramid(3), [`  #\n` , ` ###\n`, `#####\n`])
+    t.deepEqual(pyramid.pyramid(5), [`    #\n` , `   ###\n`, `  #####\n`, ` #######\n`, `#########\n`])
 })
