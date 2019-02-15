@@ -122,7 +122,7 @@ Example:
 
     * Example:   #  \n ### \n#####\n"
 
-    * Solution File: NOT CREATED YET
+    * Solution File: pyramid.js
 
 22. Matrix Spiral
     * Problem: Create a square matrix of a given size in which elements are in spiral order.
