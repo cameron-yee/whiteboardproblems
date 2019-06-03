@@ -20,6 +20,7 @@ const fibonacci = require('./problems/fibonacci')
 const memoizedfibonacci = require('./problems/memoizedfibonacci')
 const staircase = require('./problems/staircase')
 const pyramid = require('./problems/pyramid')
+const cansum = require('./problems/cansum')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -156,4 +157,12 @@ test('pyramid', t => {
     t.plan(2)
     t.deepEqual(pyramid.pyramid(3), [`  #\n` , ` ###\n`, `#####\n`])
     t.deepEqual(pyramid.pyramid(5), [`    #\n` , `   ###\n`, `  #####\n`, ` #######\n`, `#########\n`])
+})
+
+test('cansum', t => {
+    t.plan(2)
+    let one = cansum.cansum([10, 4, 7, 5], 17)
+    let two = cansum.cansum([10, 4, 1, 5], 17)
+    t.truthy(one)
+    t.falsy(two)
 })

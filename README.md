@@ -130,3 +130,10 @@ Example:
     * Example: spiral(3), [[1, 2, 3], [8, 9, 4], [7, 6, 5]]
 
     * Solution File: NOT CREATED YET
+
+23. Can Sum:
+    * Problem: Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+
+    * Example: [10, 7, 3], 17 -> true; [10, 2, 3,], 17 -> false
+
+    * Solution File: cansum.js
