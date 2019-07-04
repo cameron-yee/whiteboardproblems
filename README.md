@@ -137,3 +137,10 @@ Example:
     * Example: [10, 7, 3], 17 -> true; [10, 2, 3,], 17 -> false
 
     * Solution File: cansum.js
+
+24. Edit Distance
+    * Problem: The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other.
+
+    * Example: The edit distance between "kitten" and "sitting" is three: substitute the “k" for "s", substitute the "e" for "i", and append a "g".
+
+    * Solution File: editdistance.js

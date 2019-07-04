@@ -21,6 +21,7 @@ const memoizedfibonacci = require('./problems/memoizedfibonacci')
 const staircase = require('./problems/staircase')
 const pyramid = require('./problems/pyramid')
 const cansum = require('./problems/cansum')
+const editdistance = require('./problems/editdistance')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -166,3 +167,15 @@ test('cansum', t => {
     t.truthy(one)
     t.falsy(two)
 })
+
+test('editdistance', t => {
+    t.plan(3)
+    let one = editdistance.editdistance('kitten', 'sitting')
+    let two = editdistance.editdistance('cam', 'cameron')
+    let three = editdistance.editdistance('cam', 'cam')
+
+    t.deepEqual(one, 3)
+    t.deepEqual(two, 4)
+    t.deepEqual(three, 0)
+})
+
