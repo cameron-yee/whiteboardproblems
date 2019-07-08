@@ -139,8 +139,19 @@ Example:
     * Solution File: cansum.js
 
 24. Edit Distance
+    * SOLUTION NOT COMPLETE
+
     * Problem: The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other.
 
     * Example: The edit distance between "kitten" and "sitting" is three: substitute the “k" for "s", substitute the "e" for "i", and append a "g".
 
     * Solution File: editdistance.js
+
+24. RGB
+    * SOLUTION NOT COMPLETE
+
+    * Problem: Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array. Do this in linear time and in-place.
+
+    * Example: For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+    * Solution File: rgb.js

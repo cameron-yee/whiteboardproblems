@@ -22,6 +22,7 @@ const staircase = require('./problems/staircase')
 const pyramid = require('./problems/pyramid')
 const cansum = require('./problems/cansum')
 const editdistance = require('./problems/editdistance')
+const rgb = require('./problems/rgb')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -179,3 +180,11 @@ test('editdistance', t => {
     t.deepEqual(three, 0)
 })
 
+test('rgb', t => {
+    t.plan(2)
+    let one = rgb.rgb(['R','G','B','B','R','G'])
+    let two = rgb.rgb(['G','B','B','R','R','G'])
+
+    t.deepEqual(one, ['R','R','G','G','B','B'])
+    t.deepEqual(two, ['R','R','G','G','B','B'])
+})
