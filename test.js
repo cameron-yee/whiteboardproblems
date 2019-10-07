@@ -23,6 +23,7 @@ const pyramid = require('./problems/pyramid')
 const cansum = require('./problems/cansum')
 const editdistance = require('./problems/editdistance')
 const rgb = require('./problems/rgb')
+const coinexpectancy = require('./problems/coinexpectancy')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -187,4 +188,8 @@ test('rgb', t => {
 
     t.deepEqual(one, ['R','R','G','G','B','B'])
     t.deepEqual(two, ['R','R','G','G','B','B'])
+})
+
+test('coinexpectancy', t => {
+    t.is(typeof coinexpectancy.coinExpectancy(5), 'number')
 })

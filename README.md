@@ -155,3 +155,15 @@ Example:
     * Example: For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
     * Solution File: rgb.js
+24. Merge Sort Algorithm
+    * SOLUTION NOT COMPLETE
+
+    * Problem: Sort an array of strings using a merge sort algorithm.
+
+    * Example: For example, given the array ['Giraffe', 'Ant', 'Red Snake', 'Panda'], it should become ['Ant', 'Giraffe', 'Panda', 'Red Snake'].
+
+    * Solution File: mergesort.js
+25. Coin Expectancy
+    * Problem: You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?  Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
+
+    * Solution File: coinexpectancy.js
