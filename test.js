@@ -24,6 +24,7 @@ const cansum = require('./problems/cansum')
 const editdistance = require('./problems/editdistance')
 const rgb = require('./problems/rgb')
 const coinexpectancy = require('./problems/coinexpectancy')
+const onlyonce = require('./problems/onlyonce')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -192,4 +193,11 @@ test('rgb', t => {
 
 test('coinexpectancy', t => {
     t.is(typeof coinexpectancy.coinExpectancy(5), 'number')
+})
+
+test('onlyonce', t => {
+    let result = onlyonce.onlyOnce([1,1,2,2,3,3,4,4,5,6,6,7])
+    t.truthy(result[0] === 5)
+    t.truthy(result[1] === 7)
+    t.is(result.length, 2)
 })

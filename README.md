@@ -167,3 +167,8 @@ Example:
     * Problem: You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?  Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
 
     * Solution File: coinexpectancy.js
+26. Only Once
+    * Problem: Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+    * Example: For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+
+    * Solution File: onlyonce.js
