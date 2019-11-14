@@ -155,6 +155,7 @@ Example:
     * Example: For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
     * Solution File: rgb.js
+
 24. Merge Sort Algorithm
     * SOLUTION NOT COMPLETE
 
@@ -163,12 +164,24 @@ Example:
     * Example: For example, given the array ['Giraffe', 'Ant', 'Red Snake', 'Panda'], it should become ['Ant', 'Giraffe', 'Panda', 'Red Snake'].
 
     * Solution File: mergesort.js
+
 25. Coin Expectancy
     * Problem: You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?  Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
 
     * Solution File: coinexpectancy.js
+
 26. Only Once
     * Problem: Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
     * Example: For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
 
     * Solution File: onlyonce.js
+
+27. Full Adder
+    * Problem: Sum up two integer numbers using bitwise operators.
+
+    * Resource: [YouTube video](https://www.youtube.com/watch?v=wvJc9CZcvBc&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
+
+    * Resource: [Explanation](https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/math/bits/fullAdder.js)
+
+    * Solution File: fulladder.js

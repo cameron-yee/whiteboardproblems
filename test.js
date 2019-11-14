@@ -25,6 +25,7 @@ const editdistance = require('./problems/editdistance')
 const rgb = require('./problems/rgb')
 const coinexpectancy = require('./problems/coinexpectancy')
 const onlyonce = require('./problems/onlyonce')
+const fulladder = require('./problems/fulladder')
 
 //console.log(vowels.countVowels('twoo'))
 
@@ -200,4 +201,14 @@ test('onlyonce', t => {
     t.truthy(result[0] === 5)
     t.truthy(result[1] === 7)
     t.is(result.length, 2)
+})
+
+test('fulladder', t => {
+    t.plan(2)
+    
+    let result = fulladder.fullAdder(5,7)
+    t.truthy(result === 12)
+
+    let result_2 = fulladder.fullAdder(1,3)
+    t.truthy(result_2 === 4)
 })
